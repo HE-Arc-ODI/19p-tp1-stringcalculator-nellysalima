@@ -11,14 +11,28 @@
 public class StringCalculator {
     
     //constructeur prenant un chiffre en paramètre
-    public StringCalculator(int nb1) {}
- 
+    public StringCalculator(int Res) {}
+    int Res;
+    String ResSum;
     
-    int Add(String numbers){
+     public int add(String numbers){
+        if (numbers == null || numbers == ""){
+            if (numbers != null){
+                String ResSum = numbers;
+                return Integer.parseInt(ResSum);                      
+            }
+            
+            Res = 0;
+            return Res;
+          
+        }
+        
+        return 0;
     
-    return numbers;
-    }
-    
+    } 
+   
+
+   
     
   
 }
