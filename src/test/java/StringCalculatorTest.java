@@ -38,6 +38,21 @@ public class StringCalculatorTest {
     assertThat(expected, is(0));
    
   }
+  
+  @Test
+  public void testAdd1() {
+    // Arrange
+    StringCalculator sc = new StringCalculator(0);
+    String numbers = "1";    
+    
+    // Act
+    int expected;
+    expected = sc.add(numbers);
+    
+    // Assert
+    assertThat(expected, is(1));
+   
+  }
 
 
 
