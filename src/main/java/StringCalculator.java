@@ -23,9 +23,10 @@ public class StringCalculator {
         } if (numbers != null){
                 String ResSum = numbers;
                 return Integer.parseInt(ResSum);                      
-            }
-        
-      return 0;
+        }else {
+            return 0;
+        }
+
     } 
    
 
