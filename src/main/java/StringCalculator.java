@@ -15,19 +15,17 @@ public class StringCalculator {
     int Res;
     String ResSum;
     
-     public int add(String numbers){
+    public int add(String numbers){
         if (numbers == null || numbers == ""){
-            if (numbers != null){
+            Res = 0;
+            return Res;
+          
+        } if (numbers != null){
                 String ResSum = numbers;
                 return Integer.parseInt(ResSum);                      
             }
-            
-            Res = 0;
-            return Res;
-            
-        }
         
-        return 0;
+      return 0;
     } 
    
 
