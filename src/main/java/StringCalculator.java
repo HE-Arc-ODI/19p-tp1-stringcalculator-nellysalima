@@ -24,11 +24,10 @@ public class StringCalculator {
             
             Res = 0;
             return Res;
-          
+            
         }
         
         return 0;
-    
     } 
    
 
