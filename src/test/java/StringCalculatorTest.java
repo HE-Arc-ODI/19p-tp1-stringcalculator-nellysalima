@@ -53,6 +53,22 @@ public class StringCalculatorTest {
     assertThat(expected, is(1));
    
   }
+  
+  
+  @Test
+  public void testAdd12() {
+    // Arrange
+    StringCalculator sc = new StringCalculator(0);
+    String numbers = "1,2";    
+    
+    // Act
+    int expected;
+    expected = sc.add(numbers);
+    
+    // Assert
+    assertThat(expected, is(1));
+   
+  }
 
 
 
