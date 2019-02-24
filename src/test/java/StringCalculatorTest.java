@@ -54,21 +54,6 @@ public class StringCalculatorTest {
    
   }
 
-  
-   @Test
-  public void testAdd2() {
-    // Arrange
-    StringCalculator sc = new StringCalculator(0);
-    String numbers = "1,2";    
-    
-    // Act
-    int expected;
-    expected = sc.add(numbers);
-    
-    // Assert
-    assertThat(expected, is(1));
-   
-  }
 
 
 }
