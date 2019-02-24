@@ -66,7 +66,22 @@ public class StringCalculatorTest {
     expected = sc.add(numbers);
     
     // Assert
-    assertThat(expected, is(1));
+    assertThat(expected, is(3));
+   
+  }
+  
+  @Test
+  public void testAddManyNumbers() {
+    // Arrange
+    StringCalculator sc = new StringCalculator(0);
+    String numbers = "1,2,3,4,5,6";    
+    
+    // Act
+    int expected;
+    expected = sc.add(numbers);
+    
+    // Assert
+    assertThat(expected, is(21));
    
   }
 
