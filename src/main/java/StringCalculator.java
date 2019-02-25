@@ -10,7 +10,8 @@
  */
 public class StringCalculator {
     
-    //constructeur prenant un chiffre en paramètre
+    //constructeur prenant un chiffre en paramï¿½tre
+    //pourquoi un chiffre?
     public StringCalculator(int Res) {}
     int Res;
     String ResSum;
